@@ -2,38 +2,7 @@
     padding-left: 200px;
 }
 
-.cloud {
-    margin: 10px;
-    border-radius: 20px;
-    height: auto;
-    max-width: 400px;
-    padding: 10px;
-    position: relative;
-    background-color: #bafff8;
-    color: black;
-}
 
-.cloud:before {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: white;
-    background-image: url(images.png);
-    background-size: 100% 100%;
-    position: absolute;
-    bottom: 0%;
-    left: -140px;
-    content: '';
-}
-
-.cloud:after {
-    border: 17px solid transparent;
-    border-bottom-color: #bafff8;
-    position: absolute;
-    bottom: -0%;
-    left: -15px;
-    content: '';
-}
 .name {
     color:black;
     font-weight: 700;

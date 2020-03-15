@@ -1,9 +1,9 @@
 import React from "react";
-
+import classes from './could.module.css';
 class  Could extends React.Component {
     render = () => {
         return (
-                <div className="cloud">
+                <div className={classes.cloud}>
                     <div className="name">
                         Тельнов Сергей
                     </div>
